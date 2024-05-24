@@ -1,0 +1,22 @@
+#root {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100svh;
+	background-color: #121212;
+	color: white;
+	font-size: 2rem;
+	text-align: center;
+}
+
+button {
+	width: 200px;
+	height: 50px;
+	border-radius: 1rem;
+}
+
+button:hover {
+	background-color: white;
+	color: rgba(255, 99, 71, 0.586);
+	transform: scale(1.1);
+}
